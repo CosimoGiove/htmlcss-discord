@@ -3,48 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-.debug #sfondopiedipagina{
-background-color: black;
-}
-/**debug**/
 
-.debug .piedipagina{
-height: 400px;
-background-color: red;
-}
-.debug .piedipagina2{
-height: 400px;
-background-color: aqua;
-}
-.debug .containersezione5{
-height: 500px;
-}
-
-.debug .colonneinterne{
-border: 1px solid white;
-background-color: #20b2aa;
-}
-.debug footer{
-background-color: black;
-}
-
-.debug .containersezione5{
-border-bottom: 1px solid  white;
-}
-.debug .button{
-background-color: red;
-border: 1px solid black;
-}
-.debug .footer-container{
-background-color: black;
-height: 50px;
-border: 1px solid black;
-}
-.debug .footer{
-background-color:#7fffd4;
-height: 50px;
-}
-/**fine debug**/
 /**common**/
  h2{
  font-size: 50px;
@@ -58,6 +17,9 @@ font-family:"helvetica Neue",Arial, Helvetica, sans-serif;
 margin-top: 20px;
 font-weight: lighter;
  }
+footer{
+background-color: black;
+}
 
 /**fine common**/
 /**header**/
@@ -193,30 +155,62 @@ margin-top: 50px;
 content: "\1F817";
 }
 /**fine terza sezione**/
-/**inizio quarta sezione footer**/
+
+/**inizio sezione footer**/
+
 .piedipagina{
 width: 20%;
+background-color: black;
+margin-top: 100px;
 }
 .piedipagina>h2{
 font-size: 30px;
 color: #7289da;
+margin-bottom:20px;
 }
 .piedipagina2{
 width: 60%;
 display: flex;
+background-color: black;
+margin-top: 100px;
 }
+
 .bandiera{
-width: 30px;
 vertical-align:middle;
 margin-top: 30px;
-display:inline-block;
+color: white;
+flex-direction: row-reverse;
+}
+
+.bandieraita{
+display: flex;
+}
+.flex{
+display: flex;
 color: white;
 }
 
+.immaagine{
+display: block;
+width: 20px;
+
+}
 .fa-solid{
 font-size: 10px;
+order: 1;
+align-self: center;
 }
 
+.fa-brands{
+color: white;
+margin-top: 20px;
+margin-right: 20px;
+font-size: 20px;
+}
+
+.colonneinterne>h2{
+color:#7289da ;
+}
 .colonneinterne{
 width:calc(100% /4);
 align-items: stretch;
@@ -225,10 +219,21 @@ align-items: stretch;
 .colonneinterne>h2{
 font-size: 20px;
 }
+.info{
+color: white;
+font-size: 20px;
+margin-top: 20px;
+}
 .containersezione5{
 display: flex;
 justify-content: center;
-align-items: center;
+margin-top: 100px;
+}
+
+hr{
+width: 80%;
+margin: auto;
+margin-top: 20px;
 }
 /**fine  quarta sezione footer**/ 
 
@@ -238,14 +243,21 @@ width: 80%;
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+margin-bottom: 50px;
+}
 
-}
-.button{
-align-self: center;
-}
 .footer-container{
 display: flex;
 justify-content: center;
 margin-top:10px;
+}
+
+.registrati{
+color: white;
+border-radius: 20px;
+background-color:#255ee9;
+padding: 10px;
 }
 
