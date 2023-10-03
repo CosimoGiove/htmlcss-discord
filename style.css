@@ -9,24 +9,6 @@ background-color: black;
 /**debug**/
 
 
-.debug .containersezione{
-height: 400px;
-background-color: white;
-}
-.debug .containersx{
-height: 300px;
-background-color: blue;
-border: 2px solid black;
-}
-.debug .containerdx{
-height: 300px;
-background-color: #ee82ee;
-border: 2px solid black;
-flex-wrap: wrap;
-}
-.debug #coloresfondo{
-background-color:#d3d3d3 ;
-}
 .debug .containergrande{
 height: 700px;
 background-color: green;
@@ -73,7 +55,20 @@ background-color:#7fffd4;
 height: 50px;
 }
 /**fine debug**/
+/**common**/
+ h1{
+ font-size: 50px;
+ font-family:"helvetica Neue",Arial, Helvetica, sans-serif;
 
+ }
+
+ h3{
+font-size: 20px ;
+font-family:"helvetica Neue",Arial, Helvetica, sans-serif;
+margin-top: 20px;
+ }
+
+/**fine common**/
 /**header**/
 header{
 display: flex;
@@ -110,7 +105,30 @@ text-align: center ;
 padding: 5px;
 flex-shrink: 0;
 }
-/**fine header**/
+.titolo, .sottotitolo{
+color:white;
+}
+.bottoni{
+ display: inline-block;
+ margin-top: 20px;
+ margin-right: 20px;
+}
+    
+.colorebt1{
+ border-radius: 20px;
+background-color: white;
+padding: 10px;
+}
+.colorebt2{
+border-radius: 20px;
+background-color: black;
+padding: 10px;
+color:white
+}
+.colorebt1::before{
+content:"\1F817";
+ }
+ /** fine header/**
 /**prima sezione main**/
 .contenitorevuoto{
 width: 100%;
@@ -127,42 +145,6 @@ width: 50%;
 text-align: center;
 }
 
-.contenitore-interno>h1{
-font-size: 50px;
-color: white;
-margin-bottom: 30px;
-}
-
-.contenitore-interno>h2{
-color: white;
-font-size: 20px;
-}
-
-.bottoni{
-display: inline-block;
-margin-top: 20px;
-margin-right: 20px;
-}
-
-.colorebt1{
-border-radius: 20px;
-background-color: white;
-padding: 10px;
-}
-.colorebt2{
-border-radius: 20px;
-background-color: black;
-padding: 10px;
-color:white
-}
-
-.colorebt1::before{
-content:"\1F817";
-}
-
-/**fine prima sezione main/**
-/**inizio seconda sezione**/
-
 .containersezione{
 display: flex;
 justify-content: center;
@@ -176,13 +158,14 @@ width:50%;
 .containerdx{
 width: 30%;
 }
-/**fine seconda sezione**/
-/**inizio terza sezione**/
+
+/**fine sezione**/
+/**inizio seconda sezione**/
 .order{
 order: -1;
 }
-/**fine terza sezione**/
-/**inizio quarta sezione**/
+/**fine seconda sezione**/
+/**inizio terza sezione**/
 .containergrande{
 width: 80%;
 }
@@ -192,8 +175,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-/**fine quarta sezione**/
-/**inizio quinta sezione footer**/
+/**fine terza sezione**/
+/**inizio quarta sezione footer**/
 .piedipagina{
 width: 20%;
 
@@ -213,7 +196,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-/**fine quinta sezione footer**/ 
+/**fine  quarta sezione footer**/ 
 
 /**button footer**/
 .footer{
