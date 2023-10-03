@@ -46,13 +46,13 @@ height: 50px;
 }
 /**fine debug**/
 /**common**/
- h1{
+ h2{
  font-size: 50px;
  font-family:"helvetica Neue",Arial, Helvetica, sans-serif;
 
  }
 
- h3{
+ h4{
 font-size: 20px ;
 font-family:"helvetica Neue",Arial, Helvetica, sans-serif;
 margin-top: 20px;
@@ -95,6 +95,9 @@ flex-grow: 1;
 text-align: center ;
 padding: 5px;
 flex-shrink: 0;
+}
+.titolo{
+font-size: 50px;
 }
 .titolo, .sottotitolo{
 color:white;
@@ -193,17 +196,34 @@ content: "\1F817";
 /**inizio quarta sezione footer**/
 .piedipagina{
 width: 20%;
-
+}
+.piedipagina>h2{
+font-size: 30px;
+color: #7289da;
 }
 .piedipagina2{
 width: 60%;
 display: flex;
+}
+.bandiera{
+width: 30px;
+vertical-align:middle;
+margin-top: 30px;
+display:inline-block;
+color: white;
+}
 
+.fa-solid{
+font-size: 10px;
 }
 
 .colonneinterne{
 width:calc(100% /4);
 align-items: stretch;
+}
+
+.colonneinterne>h2{
+font-size: 20px;
 }
 .containersezione5{
 display: flex;
