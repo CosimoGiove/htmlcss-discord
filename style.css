@@ -27,18 +27,22 @@ background-color: black;
 /**hover**/
 .link.nav-debug h3:hover{
 color: red;
+cursor: pointer;
 }
 .login.nav-debug:hover{
 background-color: black;
 color: white;
+cursor: pointer;
 }
 .hover:hover{
 background-color: black;
 color: white;
+cursor: pointer;
 }
 .hover2:hover{
 background-color: white;
 color: black;
+cursor: pointer;
 }
 /**header**/
 header{
