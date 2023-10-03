@@ -21,7 +21,25 @@ footer{
 background-color: black;
 }
 
+
 /**fine common**/
+
+/**hover**/
+.link.nav-debug h3:hover{
+color: red;
+}
+.login.nav-debug:hover{
+background-color: black;
+color: white;
+}
+.hover:hover{
+background-color: black;
+color: white;
+}
+.hover2:hover{
+background-color: white;
+color: black;
+}
 /**header**/
 header{
 display: flex;
@@ -111,11 +129,13 @@ margin-top: 100px;
 .containersx{
 width:50%;
 }
-.margin{
+.sfondo{
 margin-top: 280px;
+
 }
 .containerdx{
 width: 30%;
+
 }
 
 /**fine sezione**/
