@@ -129,9 +129,11 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 250px;
-}
 
+}
+.margintop{
+margin-top: 100px;
+}
 .containersx{
 width:50%;
 }
@@ -141,6 +143,9 @@ margin-top: 280px;
 }
 .containerdx{
 width: 30%;
+}
+.margin{
+margin-top: 250px;
 }
 
 /**fine sezione**/
